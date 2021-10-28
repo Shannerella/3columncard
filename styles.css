@@ -1,0 +1,156 @@
+body {
+    background-color: hsl(0, 0%, 95%);
+    margin: 0;
+}
+
+div {
+    width: 300px;
+    height: 500px
+}
+
+img {
+    height: 8%;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 88%;
+    line-height: 2;
+    width: 90%;
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    font-size: 38px;
+}
+
+
+
+.card-full {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: max-content;
+    margin: auto;
+    margin-top: 150px;
+    
+}
+
+.card-sedan {
+    background-color: hsl(31, 77%, 52%);
+    display: flex;
+    border-radius: 10px 0 0 10px;
+}
+
+.button-sedan {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 30px;
+    border: solid #F2F2F2 2px;  
+    height: 20px;
+    line-height: 20px;
+    color: #E38826;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    width: 120px;
+    font-size: 14px;
+    padding: 10px;
+    background-color: #F2F2F2;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 70px
+}
+
+.button-sedan:hover {
+    background: #E38826;
+    color: #F2F2F2;
+    border: solid #F2F2F2 2px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.card-suv {
+    background-color: hsl(184, 100%, 22%);
+    display: flex;
+}
+
+.button-suv {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 30px;
+    border: solid #F2F2F2 2px;  
+    height: 20px;
+    line-height: 20px;
+    color: hsl(184, 100%, 22%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    width: 120px;
+    font-size: 14px;
+    padding: 10px;
+    background-color: #F2F2F2;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 70px
+}
+
+.button-suv:hover {
+    background: hsl(184, 100%, 22%);
+    color: #F2F2F2;
+    border: solid #F2F2F2 2px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.card-luxury {
+    background-color: hsl(179, 100%, 13%);
+    display: flex;
+    border-radius: 0 10px 10px 0;
+}
+
+.button-luxury {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 30px;
+    border: solid #F2F2F2 2px;  
+    height: 20px;
+    line-height: 20px;
+    color: hsl(179, 100%, 13%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    width: 120px;
+    font-size: 14px;
+    padding: 10px;
+    background-color: #F2F2F2;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 70px
+}
+
+.button-luxury:hover {
+    background: hsl(179, 100%, 13%);
+    color: #F2F2F2;
+    border: solid #F2F2F2 2px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.content {
+    margin: 40px;
+}
