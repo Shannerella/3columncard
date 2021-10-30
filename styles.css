@@ -154,3 +154,47 @@ h1 {
 .content {
     margin: 40px;
 }
+
+@media (max-width: 500px) {
+    body {
+        height:min-content;
+    }
+
+    p {
+        width: 100%;
+    }
+    .card-full {
+    display: flex;
+    flex-direction: column;
+    align-content:center;
+    margin: auto;
+    margin-top: 500px
+    }
+
+    .card-sedan {
+        border-radius: 10px 10px 0 0;
+        height: 450px;
+    }
+
+    .card-suv {
+        height: 450px;
+    }
+
+    .card-luxury {
+        border-radius: 0 0 10px 10px;
+        height: 450px;
+    }
+
+    .button-sedan {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .button-suv {
+        margin-top: 20px;
+    }
+
+    .button-luxury {
+        margin-top: 20px;
+    }
+}
